@@ -13,7 +13,7 @@ Url:		http://www.cogsci.nl/qnotero/
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildArch:	noarch
 Requires:	python-qt4
-BuildRequires:	python-devel
+BuildRequires:	python-qt4, python-devel
 
 %description
 Qnotero provides lightning quick access to your Zotero
