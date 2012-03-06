@@ -1,5 +1,5 @@
 %define name	qnotero
-%define version	0.47
+%define version	0.48
 %define release %mkrel 1
 
 Summary:	System tray application for accessing Zotero references
@@ -9,7 +9,7 @@ Release:	%{release}
 Source0:	http://www.cogsci.nl/software/qnotero/%{name}_%{version}.tar.gz
 License:	GPLv3+ 
 Group:		Publishing
-Url:		http://www.cogsci.nl/qnotero/
+Url:		http://www.cogsci.nl/software/qnotero/
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildArch:	noarch
 Requires:	python-qt4
