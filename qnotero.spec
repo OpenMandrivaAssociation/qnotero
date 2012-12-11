@@ -37,3 +37,14 @@ PYTHONDONTWRITEBYTECODE= %__python setup.py install --root=%{buildroot} --record
 %files -f FILE_LIST
 %defattr(-,root,root)
 %doc COPYING README
+
+
+%changelog
+* Tue Mar 06 2012 Lev Givon <lev@mandriva.org> 0.48-1mdv2011.0
++ Revision: 782520
+- Update to 0.48.
+
+* Thu Feb 02 2012 Lev Givon <lev@mandriva.org> 0.47-1
++ Revision: 770786
+- imported package qnotero
+
