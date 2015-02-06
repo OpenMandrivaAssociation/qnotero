@@ -1,6 +1,6 @@
 %define name	qnotero
 %define version	0.48
-%define release %mkrel 1
+%define release 2
 
 Summary:	System tray application for accessing Zotero references
 Name:		%{name}
