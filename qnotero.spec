@@ -5,7 +5,7 @@ Release:	1
 Source0:	https://github.com/ealbiter/qnotero/archive/refs/tags/v%{version}.tar.gz
 License:	GPLv3+ 
 Group:		Publishing
-Url:		http://www.cogsci.nl/software/qnotero/
+Url:		https://www.cogsci.nl/software/qnotero/
 BuildArch:	noarch
 Requires:	python-qt5
 BuildRequires:	python-qt5, python-devel
